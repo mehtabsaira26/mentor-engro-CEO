@@ -1,0 +1,125 @@
+.celebrity-img-div {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    min-width: 200px;
+    border-radius: 5px;
+    margin: 1em;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.75);
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-image:url("images/Food.jpg");
+}
+#celebrities-list{
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffff;
+    padding-right: 1em;
+    margin-bottom: 8px;    
+}
+/* ::-webkit-scrollbar-track{
+    webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+} */
+.celeb-img-text{
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.celebrity-img-div:hover > p{
+    display: flex;
+    /* text-align: center !important; */
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-weight: bold;
+    background-color: #00000057;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+}
+
+#celebrity-details{
+    padding: 20px;
+    width: 600px;
+    margin: 1em;
+
+}
+
+#cele-name{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0%;
+}
+
+.card-subtitle {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+.card-link,.card-body,#read-url{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+#celebrity-img{
+    width: 100%;
+    height: 220px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a6a7a91c;
+}
+#cele-para{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Rancho', cursive;
+    font-size: 35px;
+}
+#box{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+}
+header, footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap !important;
+    align-content: flex-start !important;
+    background-color:#b5825d;
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+footer{
+    font-size: 2em;
+    display: inherit;
+}
+h2 {
+    font-size: 4rem;
+}
